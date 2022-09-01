@@ -1,0 +1,84 @@
+[
+    {
+        "precio": 6500,
+        "id": 1,
+        "title": "JEANS MOM LIGHT GREY",
+        "img": "https://www.revstondenim.com.ar/3754-large_default/384-jeans-mom-light-grey.jpg"
+    },
+    {
+        "precio": 6900,
+        "id": 2,
+        "title": "JEANS JOGGER",
+        "img": "https://www.revstondenim.com.ar/3737-large_default/378-jeans-jogger-.jpg"
+    },
+    {
+        "precio": 5470,
+        "id": 3,
+        "title": "JEANS CARGO SNOWY GRAY",
+        "img": "https://www.revstondenim.com.ar/3729-large_default/382-jeans-cargo-snowy-gray-.jpg"
+    },
+    {
+        "precio": 4630,
+        "id": 4,
+        "title": "JEANS AUSTIN LIGHT BLUE",
+        "img": "https://www.revstondenim.com.ar/3696-large_default/302-jeans-austin-light-blue.jpg"
+    },
+    {
+        "precio": 7300,
+        "id": 5,
+        "title": "JEANS BLACK AUSTIN",
+        "img": "https://www.revstondenim.com.ar/3661-large_default/346-jeans-black-austin.jpg"
+    },
+    {
+        "precio": 4580,
+        "id": 6,
+        "title": "BERMUDA MOM TOKYO",
+        "img": "https://www.revstondenim.com.ar/3770-large_default/380-bermuda-mom-tokyo.jpg"
+    },{
+        "precio": 6750,
+        "id": 7,
+        "title": "BERMUDA BLUE",
+        "img": "https://www.revstondenim.com.ar/3757-large_default/376-bermuda-blue-.jpg"
+    },{
+        "precio": 5670,
+        "id": 8,
+        "title": "BERMUDA ATLANTA",
+        "img": "https://www.revstondenim.com.ar/3763-thickbox_default/370-bermuda-atlanta.jpg"
+    },{
+        "precio": 3200,
+        "id": 9,
+        "title": "REMERA EXPERIENCE",
+        "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/283/338/products/dsc03075-2afdf15a7c048b68fb16359356457555-640-0.jpg"
+    },{
+        "precio": 3250,
+        "id": 10,
+        "title": "REMERA HELL",
+        "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/283/338/products/dsc030621-2552f63249db0991b116377527819933-640-0.jpg"
+    },{
+        "precio": 3890,
+        "id": 11,
+        "title": "REMERA SINNER",
+        "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/283/338/products/dsc06276-d26f17bc88931a217a16407172797426-640-0.jpg"
+    },{
+        "precio": 7670,
+        "id": 12,
+        "title": "BUZO SPELL",
+        "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/283/338/products/dsc07069-copia-copia-d814371958b9ecc6cd16493468804430-640-0.jpg"
+    },{
+        "precio": 8210,
+        "id": 13,
+        "title": "BUZO YOU GRIS ",
+        "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/283/338/products/dsc09563-fileminimizer1-75289c584e45756efc16569453772787-640-0.jpg"
+    },{
+        "precio": 6840,
+        "id": 14,
+        "title": "BUZO ATTRACT",
+        "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/283/338/products/dsc095391-42dbee6686a35cdffe16575522283901-640-0.jpg"
+    },{
+        "precio": 7900,
+        "id": 15,
+        "title": "BUZO MISTAKES",
+        "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/283/338/products/dsc000571-022788897e313b127316583384561250-640-0.jpg"
+    }
+
+]
