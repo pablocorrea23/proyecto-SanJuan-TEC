@@ -1,0 +1,23 @@
+body{
+    background-color: white;
+}
+
+header{
+    z-index: 100;
+}
+
+.tab-content{
+    color: black;
+}
+
+.container{
+    z-index: -1;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: rgb(206, 206, 21);
+}
