@@ -10,7 +10,7 @@ let carrito = {};
 
 document.addEventListener('DOMContentLoaded', () => {
     fetchData()
-    
+
 })
 
 cards.addEventListener('click', (e) => {
@@ -80,7 +80,7 @@ const pintarCarrito = () => {
 
     Object.values(carrito).forEach(producto => {
         templateCarrito.querySelector('th').textContent = producto.id;
-        templateCarrito.querySelectorAll('td')[0].textContent = producto.title;
+        templateCarrito.querySelectorAll('td')[0].textContent = producto.title;        
         templateCarrito.querySelectorAll('td')[1].textContent = producto.cantidad;
         templateCarrito.querySelector('.btn-info').dataset.id = producto.id;
         templateCarrito.querySelector('.btn-danger').dataset.id = producto.id;
@@ -93,7 +93,7 @@ const pintarCarrito = () => {
 
     pintarFooter();
 
-    
+
 }
 
 const pintarFooter = () => {
@@ -107,24 +107,48 @@ const pintarFooter = () => {
     }
 
     const nCantidad = Object.values(carrito).reduce((acc, { cantidad }) => acc + cantidad, 0);
-    const nPrecio = Object.values(carrito).reduce((acc, { cantidad, precio }) => (acc + cantidad * precio), 0);
+    const nPrecio = Object.values(carrito).reduce((acc, {cantidad, precio}) => acc + cantidad * precio, 0);
+    
 
     templateFooter.querySelectorAll('td')[0].textContent = nCantidad;
-    templateFooter.querySelectorAll('span').textContent = nPrecio;
+    templateFooter.querySelector('span').textContent = nPrecio;
 
     const clone = templateFooter.cloneNode(true);
     fragment.appendChild(clone);
     footer.appendChild(fragment);
 
+
+
+
     const btnVaciar = document.getElementById('vaciar-carrito');
     btnVaciar.addEventListener('click', () => {
-        carrito = {};
-        pintarCarrito();
+
+        swal({
+            title: "Quieres vaciar tu carrito?",
+            text: "Se eliminarán todas las prendas agregadas",
+            icon: "warning",
+            buttons: true,
+            dangerMode: true,
+        })
+            .then((willDelete) => {
+                if (willDelete) {
+                    swal("Las prendas en carrito fueron eliminadas!", {
+                        icon: "success",                        
+                    });
+
+                    carrito = {};
+                    pintarCarrito();
+                } else {
+                    swal("No se hicieron modificaciones en carrito");
+                }
+            });
+
+
     })
 }
 
 const btnAccion = e => {
-    
+
 
     //accion de aumentar
     if (e.target.classList.contains('btn-info')) {

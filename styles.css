@@ -21,3 +21,7 @@ header{
 .nav-link:hover{
     color: rgb(206, 206, 21);
 }
+
+.signo-precio{
+    display: flex;
+}
